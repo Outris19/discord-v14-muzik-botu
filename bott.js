@@ -33,7 +33,7 @@ class MainClient extends Client {
         const client = this;
 
         this.distube = new DisTube(client, {
-            searchSongs: 0, /// ARAMA MODUNU ETKİNLEŞTİRMEK İÇİN 5'E AYARLAYIN!
+            searchSongs: 5, /// ARAMA MODUNU ETKİNLEŞTİRMEK İÇİN 5'E AYARLAYIN!
             searchCooldown: 30,
             leaveOnEmpty: true,
             emptyCooldown: 60,
@@ -52,7 +52,7 @@ class MainClient extends Client {
 
     }
     connect() {
-        return super.login(this.token);
+        return super.login(this.MTA1NDA1MTc2OTI1ODM0NDQ4MA.GWp3vF.ulQaJ0qiL6kbVFTzMWlEpoGNAUAHljQ72bgyPo);
     };
 };
 module.exports = MainClient;

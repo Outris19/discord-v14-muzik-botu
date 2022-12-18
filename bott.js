@@ -52,7 +52,7 @@ class MainClient extends Client {
 
     }
     connect() {
-        return super.login(this.MTA1NDA1MTc2OTI1ODM0NDQ4MA.GWp3vF.ulQaJ0qiL6kbVFTzMWlEpoGNAUAHljQ72bgyPo);
+        return super.login(this.aaaaa);
     };
 };
 module.exports = MainClient;
